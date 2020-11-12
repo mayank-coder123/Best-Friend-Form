@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Friend Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div>
+            <h1>Best Friend Application</h1>
+            <img src="https://i1.faceprep.in/ProGrad/hello-minion.png" alt="hello-minion">
+            <p>
+                Hey there! I need a new best friend... because the last one escaped :)
+                Not my fault though, I'm a little moody, but super cool!
+            </p>
+            <h3>Wanna Be Friends?</h3>
+        </div>
+        <form action="mailto:agarwalmayank0707@gmail.com?Subject=My Best Friend Application" method="POST" enctype="text/plain">
+            <label for="name">What's Your Name?</label>
+            <input type="text" name="name" id="name" placeholder="John Doe"> 
+            <br>
+            <label for="nickname">What Do You Want Me To Call You As?</label>
+            <input type="text" name="nickname" id="nickname" placholder="Jhonny">
+            <br>
+            <label for="age">What's Your Age?</label>
+            <input type="number" name="age" id="age" min="10" max="16">
+            <br>
+            <label for="avenger">Who's Your Favourite Avenger?</label>
+            <br>
+            <input type="checkbox" name="ironman" id="ironman">
+            <label for="iron man">Iron Man</label>
+            <input type="checkbox" name="hulk" id="hulk">
+            <label for="hulk">Hulk</label>
+            <input type="checkbox" name="thor" id="thor">
+            <label for="thor">Thor</label>
+            <br>
+            <label for="why">Why Do You Want To Be Friends With Me?</label>
+            <textarea name="why" id="why" cols="30" rows="3">I want to be friends with you because...</textarea>
+            <input type="submit" value="LETS BE FRIENDS!">
+
+        </form>
+    </section>
+</body>
+</html>
